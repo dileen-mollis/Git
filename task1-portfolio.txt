@@ -1,0 +1,24 @@
+Создание портфолио
+
+1. Создать свой репозиторий в таким же именем, как и имя пользователя
+Через Github: Create new...>New repository>Create repository
+
+2. Склонировать его на свой компьютер в отдельную папку
+Через Visual Studio code: Clone Git repository>Clone from Github(remote source)>Choose repository name>Select a repository destination
+
+3. Склонировать себе следующий репозиторий в отдельную папку https://github.com/testrusau/testrusau
+Через Visual Studio code: Clone Git repository>Clone from url https://github.com/testrusau/testrusau>Select a repository destination
+
+4. Выберите один из любых вариантов и выполните его.
+Вариант 1: Скопировать данные из склонированного репозитория и вставить их в ваш репозиторий из шага 2
+Вариант 2 (задание со звездочкой): запушить данные из репозитория artichokeee в ваш репозиторий из шага 2
+
+Вариант 2:
+git clone --bare https://github.com/testrusau/testrusau.git
+cd testrusau.git
+git push --mirror https://github.com/dileen-mollis/dileen-mollis02.git
+
+5. Открыть файл README.md и поочередно заменить каждый блок на вашу информацию . Каждое изменений блока делайте через отдельный коммит.
+git add .
+git commit -m "delete social media block"
+git push
